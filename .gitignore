@@ -1,0 +1,18 @@
+# Byte-compiled / IDE / OS
+__pycache__/
+*.py[cod]
+.Python
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ESP-IDF / build
+build/
+sdkconfig.old
+managed_components/
+dependencies.lock
+*.bin
+*.elf
+*.map

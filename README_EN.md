@@ -2,7 +2,7 @@
 
 <h1 align="center">OSPTEK 7.09″ EPD 1200×1600 (TBD · SPI)</h1>
 
-<p align="center"><b>E-paper module · SPI · TBD</b></p>
+<p align="center"><b>E-paper module · SPI · TBD · Multi-Version Index</b></p>
 
 <p align="center">English | <a href="./README.md">简体中文</a></p>
 
@@ -13,68 +13,51 @@
   <img alt="Driver: TBD" src="https://img.shields.io/badge/Driver-TBD-E7352C?style=flat-square" />
 </p>
 
-<p align="center"><img alt="OSPTEK 7.09&quot; 1200×1600 EPD SPI module (TBD) product image" src="./images/product.png" width="640" /></p>
-
 ## Contents
 
-- [Branches](#branches)
-- [Overview](#overview)
-- [Specifications](#specifications)
-- [Repository layout](#repository-layout)
-- [Resources](#resources)
+- [About](#about)
+- [Versions](#versions)
+- [EPD0709A02](#epd0709a02)
+- [How to Switch Branches](#how-to-switch-branches)
 - [Where to Buy](#where-to-buy)
 - [Support](#support)
 
 ---
 
-## Branches
+## About
 
-This repository uses one branch per part number. The **default branch** is the navigation page [`main`](https://github.com/osptek/7.09-epd-1200x1600-spi-tbd/tree/main); full product materials live on each part-number branch.
+This repository holds materials for the **7.09″ 1200×1600 EPD (SPI · TBD)** module family.
 
-| Model | Branch | Notes |
-| ----- | ------ | ----- |
-| — | [`main`](https://github.com/osptek/7.09-epd-1200x1600-spi-tbd/tree/main) | Multi-SKU index (repo default) |
-| EPD0709A02 | [`EPD0709A02`](https://github.com/osptek/7.09-epd-1200x1600-spi-tbd/tree/EPD0709A02) | **This branch** · module |
-
----
-
-## Overview
-
-OSPTEK **7.09″ 1200×1600 EPD** is a **SPI** six-color e-paper display module (black / white / red / yellow / blue / green). The driver IC part number is not confirmed yet, so the repository name uses **TBD** for now; it will be renamed and this page updated once confirmed.
+**`main` is the navigation page** (repository default). Use the table below for a quick scan; click **Details** to jump to the section on this page. For a given version’s full content, switch to that **version branch** (see below).
 
 Repo id: `7.09-epd-1200x1600-spi-tbd`
 
-Current module version: **EPD0709A02**. Electrical and mechanical details follow [`docs/EPD0709A02.pdf`](./docs/EPD0709A02.pdf).
+---
 
-## Specifications
+## Versions
 
-| Item | Spec |
-| ---- | ---- |
-| Size | 7.09 inch |
-| Type | EPD (e-paper · six-color) |
-| Resolution | 1200×1600 |
-| Interface | SPI |
-| Driver IC | TBD |
+| Version | Image | Notes |
+| ------- | ----- | ----- |
+| EPD0709A02 | <img alt="EPD0709A02" src="./images/EPD0709A02.png" width="120" /> | [Details](#epd0709a02) |
 
-> Full outline, FPC definition, power, and timing follow the product datasheet / driver IC datasheet.
+---
 
-## Repository layout
+## EPD0709A02
 
-```text
-7.09-epd-1200x1600-spi-tbd/
-├── README.md
-├── README_EN.md
-├── LICENSE
-├── images/          # README images
-├── docs/            # datasheets, init files
-└── examples/        # sample projects
-```
+<p align="center"><img alt="EPD0709A02" src="./images/EPD0709A02.png" width="320" /></p>
 
-## Resources
+**Notes:** Six-color (black / white / red / yellow / blue / green).
 
-| Resource | Link |
-| -------- | ---- |
-| Product datasheet (EPD0709A02) | [`docs/EPD0709A02.pdf`](./docs/EPD0709A02.pdf) |
+---
+
+## How to Switch Branches
+
+Full product materials are on each **version branch**; `main` is navigation only.
+
+- **Web:** open the branch dropdown at the top left of the repository page and select the branch that matches your part number.
+- **CLI:** after cloning, run `git checkout <version-branch>`; if the repo is already local, `git fetch` first, then switch.
+
+---
 
 ## Where to Buy
 
@@ -91,6 +74,8 @@ Current module version: **EPD0709A02**. Electrical and mechanical details follow
 **China (Taobao)**
 
 - Store: [鱼鹰光电工厂店](https://shop110742373.taobao.com/)
+
+---
 
 ## Support
 

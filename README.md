@@ -47,7 +47,6 @@
 <p align="center"><img alt="EPD0709A02" src="./images/EPD0709A02.png" width="320" /></p>
 
 **说明：** 六色（黑 / 白 / 红 / 黄 / 蓝 / 绿）。
-
 ---
 
 ## 如何切换分支

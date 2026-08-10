@@ -47,7 +47,6 @@ Repo id: `7.09-epd-1200x1600-spi-tbd`
 <p align="center"><img alt="EPD0709A02" src="./images/EPD0709A02.png" width="320" /></p>
 
 **Notes:** Six-color (black / white / red / yellow / blue / green).
-
 ---
 
 ## How to Switch Branches

@@ -2,7 +2,7 @@
 
 <h1 align="center">OSPTEK 7.09″ EPD 1200×1600 (TBD · SPI)</h1>
 
-<p align="center"><b>E-paper module · SPI · TBD · Multi-Version Index</b></p>
+<p align="center"><b>E-paper module · SPI · TBD</b></p>
 
 <p align="center">English | <a href="./README.md">简体中文</a></p>
 
@@ -13,43 +13,57 @@
   <img alt="Driver: TBD" src="https://img.shields.io/badge/Driver-TBD-E7352C?style=flat-square" />
 </p>
 
+<p align="center"><img alt="OSPTEK 7.09&quot; 1200×1600 EPD SPI module (TBD) product image" src="./images/product.png" width="640" /></p>
+
 ## Contents
 
-- [About](#about)
-- [Versions](#versions)
-- [EPD0709A02](#epd0709a02)
+- [Overview](#overview)
+- [Specifications](#specifications)
+- [Repository layout](#repository-layout)
+- [Resources](#resources)
 - [Where to Buy](#where-to-buy)
 - [Support](#support)
 
 ---
 
-## About
+## Overview
 
-This repository holds materials for the **7.09″ 1200×1600 EPD (SPI · TBD)** module family.
-
-The **root README is the navigation page**. Use the table below for a quick scan; open **Full docs** to enter that **part-number folder** under `versions/` (product page, datasheets, and examples live there).
+OSPTEK **7.09″ 1200×1600 EPD** is a **SPI** six-color e-paper display module (black / white / red / yellow / blue / green). The driver IC part number is not confirmed yet, so the repository name uses **TBD** for now; it will be renamed and this page updated once confirmed.
 
 Repo id: `7.09-epd-1200x1600-spi-tbd`
 
----
+Current module version: **EPD0709A02**. Electrical and mechanical details follow [`docs/EPD0709A02.pdf`](./docs/EPD0709A02.pdf).
 
-## Versions
+## Specifications
 
-| Version | Image | Summary | Full docs |
-| ------- | ----- | ------- | --------- |
-| EPD0709A02 | <img alt="EPD0709A02" src="./versions/EPD0709A02/images/product.png" width="120" /> | [Summary](#epd0709a02) | [Full docs](./versions/EPD0709A02/) |
+| Item | Spec |
+| ---- | ---- |
+| Size | 7.09 inch |
+| Type | EPD (e-paper · six-color) |
+| Resolution | 1200×1600 |
+| Interface | SPI |
+| Driver IC | TBD |
 
----
+> Full outline, FPC definition, power, and timing follow the product datasheet / driver IC datasheet.
 
-## EPD0709A02
+## Repository layout
 
-<p align="center"><img alt="EPD0709A02" src="./versions/EPD0709A02/images/product.png" width="320" /></p>
+```text
+7.09-epd-1200x1600-spi-tbd/                                # repo root (nav: ../../README_EN.md)
+└── versions/
+    └── EPD0709A02/                                # full materials for this part number
+        ├── README.md
+        ├── README_EN.md
+        ├── images/
+        ├── docs/
+        └── examples/
+```
 
-**Notes:** Six-color (black / white / red / yellow / blue / green).
+## Resources
 
-Full product page, datasheets, and examples: [versions/EPD0709A02/](./versions/EPD0709A02/)
-
----
+| Resource | Link |
+| -------- | ---- |
+| Product datasheet (EPD0709A02) | [`docs/EPD0709A02.pdf`](./docs/EPD0709A02.pdf) |
 
 ## Where to Buy
 
@@ -66,8 +80,6 @@ Full product page, datasheets, and examples: [versions/EPD0709A02/](./versions/E
 **China (Taobao)**
 
 - Store: [鱼鹰光电工厂店](https://shop110742373.taobao.com/)
-
----
 
 ## Support
 

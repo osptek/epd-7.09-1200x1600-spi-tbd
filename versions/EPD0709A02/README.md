@@ -2,9 +2,9 @@
 
 <h1 align="center">OSPTEK 7.09″ EPD 1200×1600（TBD · SPI）</h1>
 
-<p align="center"><b>电子纸模组 · SPI · TBD · 多版本索引</b></p>
+<p align="center"><b>电子纸模组 · SPI · TBD</b></p>
 
-<p align="center"><a href="./README_EN.md">English</a> | 简体中文</p>
+<p align="center"><a href="./README_EN.md">English</a> | 简体中文 · <a href="../../README.md">规格族索引</a></p>
 
 <p align="center">
   <img alt="Size: 7.09 inch" src="https://img.shields.io/badge/Size-7.09%22-3498DB?style=flat-square" />
@@ -13,43 +13,57 @@
   <img alt="Driver: TBD" src="https://img.shields.io/badge/Driver-TBD-E7352C?style=flat-square" />
 </p>
 
+<p align="center"><img alt="OSPTEK 7.09 寸 1200×1600 EPD SPI 模组（TBD）宣传图" src="./images/product.png" width="640" /></p>
+
 ## 目录
 
-- [说明](#说明)
-- [版本一览](#版本一览)
-- [EPD0709A02](#epd0709a02)
+- [产品简介](#产品简介)
+- [规格参数](#规格参数)
+- [仓库结构](#仓库结构)
+- [相关资料](#相关资料)
 - [购买链接](#购买链接)
 - [技术支持](#技术支持)
 
 ---
 
-## 说明
+## 产品简介
 
-本仓库收录 **7.09 寸 1200×1600 EPD（SPI · TBD）** 显示模组资料。
-
-**根目录 README 为导航页**。下表可快速浏览各版本；点击「完整资料」进入 `versions/` 下对应**料号文件夹**（产品页、规格书、示例均在该目录内）。
+OSPTEK **7.09 寸 1200×1600 EPD** 是一款 **SPI** 接口六色电子纸显示模组（黑 / 白 / 红 / 黄 / 蓝 / 绿）。驱动 IC 型号待确认，仓库名暂用 **TBD**；确认后将更名并同步更新本页。
 
 规格标识（仓库名）：`7.09-epd-1200x1600-spi-tbd`
 
----
+当前模组版本：**EPD0709A02**。电气与外形细节以 [`docs/EPD0709A02.pdf`](./docs/EPD0709A02.pdf) 为准。
 
-## 版本一览
+## 规格参数
 
-| 版本 | 宣传图 | 简介 | 完整资料 |
-| ---- | ------ | ---- | -------- |
-| EPD0709A02 | <img alt="EPD0709A02" src="./versions/EPD0709A02/images/product.png" width="120" /> | [简介](#epd0709a02) | [完整资料](./versions/EPD0709A02/) |
+| 项目 | 规格 |
+| ---- | ---- |
+| 尺寸 | 7.09 英寸 |
+| 类型 | EPD（电子纸 · 六色） |
+| 分辨率 | 1200×1600 |
+| 接口 | SPI |
+| 驱动 IC | TBD |
 
----
+> 完整外形尺寸、FPC 定义、供电与时序以产品规格书 / 驱动手册为准。
 
-## EPD0709A02
+## 仓库结构
 
-<p align="center"><img alt="EPD0709A02" src="./versions/EPD0709A02/images/product.png" width="320" /></p>
+```text
+7.09-epd-1200x1600-spi-tbd/                                # 仓库根（导航见 ../../README.md）
+└── versions/
+    └── EPD0709A02/                                # 本料号完整资料
+        ├── README.md
+        ├── README_EN.md
+        ├── images/
+        ├── docs/
+        └── examples/
+```
 
-**说明：** 六色（黑 / 白 / 红 / 黄 / 蓝 / 绿）。
+## 相关资料
 
-完整产品页、规格书与示例：[versions/EPD0709A02/](./versions/EPD0709A02/)
-
----
+| 资料 | 链接 |
+| ---- | ---- |
+| 产品规格书（EPD0709A02） | [`docs/EPD0709A02.pdf`](./docs/EPD0709A02.pdf) |
 
 ## 购买链接
 
@@ -66,8 +80,6 @@
 **海外（AliExpress）**
 
 - 店铺：[OSPTEK Official Store](https://www.aliexpress.com/store/1105701619)
-
----
 
 ## 技术支持
 

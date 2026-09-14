@@ -29,7 +29,7 @@ This repository holds materials for the **7.09″ 1200×1600 EPD (SPI · TBD)** 
 
 The **root README is the navigation page**. Use the table below for a quick scan; open **Full docs** to enter that **part-number folder** under `versions/` (product page, datasheets, and examples live there).
 
-Repo id: `7.09-epd-1200x1600-spi-tbd`
+Repo id: `epd-7.09-1200x1600-spi-tbd`
 
 ---
 

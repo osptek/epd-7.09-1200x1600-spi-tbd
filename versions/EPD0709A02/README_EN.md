@@ -30,7 +30,7 @@
 
 OSPTEK **7.09″ 1200×1600 EPD** is a **SPI** six-color e-paper display module (black / white / red / yellow / blue / green). The driver IC part number is not confirmed yet, so the repository name uses **TBD** for now; it will be renamed and this page updated once confirmed.
 
-Repo id: `7.09-epd-1200x1600-spi-tbd`
+Repo id: `epd-7.09-1200x1600-spi-tbd`
 
 Current module version: **EPD0709A02**. Electrical and mechanical details follow [`docs/EPD0709A02.pdf`](./docs/EPD0709A02.pdf).
 
@@ -49,7 +49,7 @@ Current module version: **EPD0709A02**. Electrical and mechanical details follow
 ## Repository layout
 
 ```text
-7.09-epd-1200x1600-spi-tbd/                                # repo root (nav: ../../README_EN.md)
+epd-7.09-1200x1600-spi-tbd/                                # repo root (nav: ../../README_EN.md)
 └── versions/
     └── EPD0709A02/                                # full materials for this part number
         ├── README.md

@@ -6,6 +6,7 @@ panel: epd
 resolution: 1200x1600
 interface: [spi]
 shape: rect
+corner: rounded
 
 versions:
   - id: EPD0709A02

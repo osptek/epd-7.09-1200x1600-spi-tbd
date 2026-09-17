@@ -1,0 +1,14 @@
+id: epd-7.09-1200x1600-spi-tbd
+category: displays
+
+size: "7.09"
+panel: epd
+resolution: 1200x1600
+interface: [spi]
+shape: rect
+
+versions:
+  - id: EPD0709A02
+    driver: TBD
+    touch: none
+    note: Six-color (black / white / red / yellow / blue / green)
